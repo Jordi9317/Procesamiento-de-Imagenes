@@ -6,11 +6,11 @@ streamlit>=1.28.0
 # Image processing
 Pillow>=10.0.0
 numpy>=1.24.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 
 # PyTorch CPU-only (no CUDA)
-torch>=2.0.0+cpu --index-url https://download.pytorch.org/whl/cpu
-torchvision>=0.15.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision>=0.15.0 --index-url https://download.pytorch.org/whl/cpu
 
 # Utilities
 requests>=2.31.0
