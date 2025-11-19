@@ -15,8 +15,8 @@ import io
 import base64
 
 # Importar módulos locales
-from src.image_pipeline import ImageRestorationPipeline
-from src.validation import ImageValidator, ErrorHandler, safe_image_operation
+from Laboratorio_desarrollo_3.src.image_pipeline import ImageRestorationPipeline
+from Laboratorio_desarrollo_3.src.validation import ImageValidator, ErrorHandler, safe_image_operation
 
 # Configuración de logging
 logging.basicConfig(level=logging.INFO)
